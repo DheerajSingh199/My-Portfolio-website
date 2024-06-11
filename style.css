@@ -1,7 +1,18 @@
+@font-face {
+  font-family:monospace ;
+  src: url(./font/Anonymous.ttf);
+}
+
+@font-face {
+  font-family:monospace ;
+  src: url(./font/Anonymous.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: monospace;
 }
 
@@ -54,9 +65,29 @@ body {
   font-size: 7.5vw;
   text-transform: uppercase;
   font-weight: 400;
-  animation-name: anime;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  -webkit-animation-name: anime;
+          animation-name: anime;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes anime {
+  0% {
+    font-family: monospace;
+  }
+  47% {
+    font-family: monospace;
+  }
+  50% {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+  100% {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }
 }
 
 @keyframes anime {
@@ -78,15 +109,27 @@ body {
 
 .textHeading {
   overflow: hidden;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   gap: 2vw;
 }
 #textHeading-part1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 2vw;
 }
 
@@ -107,6 +150,8 @@ body {
   padding-left: 15vw;
   padding-top: 2vw;
   overflow: hidden;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 .textHeading2 h4 {
@@ -117,15 +162,27 @@ body {
 
 #page1 #nav {
   padding: 3.5vw 7.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #nav #nav-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 2.5vw;
   font-size: 1.2vw;
   font-weight: 100;
@@ -137,9 +194,15 @@ body {
 .hero {
   width: 70%;
   margin-left: 25%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow: hidden;
 }
 
@@ -161,7 +224,7 @@ body {
   font-style: italic;
   font-weight: 100;
   font-family: "Times New Roman", Times, serif;
-  top: 27%;
+  top: 30%;
   left: 17%;
 }
 
@@ -179,6 +242,8 @@ body {
   color: transparent;
   font-weight: 100;
   border-bottom: 0.6vw solid #ffffff00;
+  -webkit-transition: all ease-in 0.2s;
+  -o-transition: all ease-in 0.2s;
   transition: all ease-in 0.2s;
 }
 
@@ -203,7 +268,8 @@ body {
 #video-container video {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   opacity: 0;
 }
 
@@ -216,9 +282,15 @@ body {
   background-color: #ffa63d;
   top: 7%;
   left: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #video-crsr i {
@@ -244,6 +316,8 @@ body {
   -webkit-text-stroke: 2px #fff;
   color: transparent;
   font-weight: 100;
+  -webkit-transition: all ease-in 0.4s;
+  -o-transition: all ease-in 0.4s;
   transition: all ease-in 0.4s;
   padding-left: 24vw;
 }
@@ -269,10 +343,17 @@ body {
 #image-div-container {
   position: relative;
   padding: 1vw 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 #image-div-container > p {
   font-size: 2.8vw;
@@ -286,7 +367,8 @@ body {
   width: 32vw;
   position: relative;
   overflow: hidden;
-  flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   margin: 1vw 1.5vw;
 }
 
@@ -295,7 +377,8 @@ body {
   width: 20vw;
   position: relative;
   overflow: hidden;
-  flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   margin: 1vw 1.5vw;
 }
 
@@ -304,15 +387,18 @@ body {
   width: 20vw;
   position: relative;
   overflow: hidden;
-  flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   margin: 1vw 1.5vw;
 }
 
 .image-effect img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .page3-circle1 {
@@ -320,9 +406,15 @@ body {
   width: 24vw;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 14vw;
   margin-left: 4vw;
   position: relative;
@@ -337,16 +429,24 @@ body {
   width: 24vw;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 2vw;
   position: relative;
 }
 
 .page3-circle2 svg {
   height: 25%;
-  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+      -ms-transform: rotate(315deg);
+          transform: rotate(315deg);
 }
 .circle-in {
   height: 100%;
@@ -356,10 +456,18 @@ body {
   left: 0;
   background-color: #fff;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   scale: 0;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
 
@@ -368,8 +476,12 @@ body {
   color: #0b0b0b;
   scale: 0;
   width: 70%;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
-  transition-delay: 0.6s;
+  -webkit-transition-delay: 0.6s;
+       -o-transition-delay: 0.6s;
+          transition-delay: 0.6s;
 }
 .page3-circle1:hover .circle-in {
   scale: 1;
@@ -419,6 +531,8 @@ body {
   -webkit-text-stroke: 2px #fff;
   color: transparent;
   font-weight: 100;
+  -webkit-transition: all ease-in 0.4s;
+  -o-transition: all ease-in 0.4s;
   transition: all ease-in 0.4s;
 }
 #page4-content > #underline {
@@ -436,6 +550,8 @@ body {
 }
 
 #page4-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #page4-flex img {
@@ -459,9 +575,15 @@ body {
 }
 
 .blue-div-elem {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: end;
-  justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 1.5vw 1vw;
 }
 
@@ -518,10 +640,14 @@ body {
   font-weight: 100;
   text-transform: uppercase;
   margin-right: 2vw;
-  animation-name: anime1;
-  animation-duration: 15s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  -webkit-animation-name: anime1;
+          animation-name: anime1;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .elem2 {
@@ -538,24 +664,41 @@ body {
   font-weight: 100;
   text-transform: uppercase;
   margin-right: 2vw;
-  animation-name: anime1;
-  animation-duration: 15s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  -webkit-animation-name: anime1;
+          animation-name: anime1;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   animation-direction: reverse;
+}
+
+@-webkit-keyframes anime1 {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(calc(-100% - 40px));
+            transform: translateX(calc(-100% - 40px));
+  }
 }
 
 @keyframes anime1 {
   from {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-100% - 40px));
+    -webkit-transform: translateX(calc(-100% - 40px));
+            transform: translateX(calc(-100% - 40px));
   }
 }
 
 #footer {
-  min-height: 80vh;
+  min-height: 81vh;
   width: 100%;
   position: relative;
   padding-left: 23vw;
@@ -584,6 +727,8 @@ body {
   -webkit-text-stroke: 2px #fff;
   color: transparent;
   font-weight: 100;
+  -webkit-transition: all ease-in 0.4s;
+  -o-transition: all ease-in 0.4s;
   transition: all ease-in 0.4s;
 }
 #underline2 {
@@ -595,11 +740,17 @@ body {
 }
 
 #footer-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 90%;
   margin-bottom: 4vw;
-  align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .box h5 {
   font-size: 1.5vw;
@@ -714,9 +865,15 @@ body {
     display: none;
   }
   #image-div-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   #page4 {
@@ -748,8 +905,13 @@ body {
   }
 
   #page4-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     width: 100%;
   }
 
@@ -772,9 +934,15 @@ body {
     left: 5%;
   }
   .blue-div-elem {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: end;
-    justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 5.5vw 1vw;
   }
   .blue-div-elem h4 {
@@ -853,4 +1021,8 @@ body {
     font-weight: 100;
     text-align: center;
   }
+
+  #hero1::before {
+   display: none;
+}
 }

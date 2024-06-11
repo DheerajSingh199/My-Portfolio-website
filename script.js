@@ -68,7 +68,7 @@ function lodingAnimation() {
 
   tl.to("#loader", {
     opacity: 0,
-    // delay: 2,
+     delay: 2,
     duration: 0.4,
   });
 
