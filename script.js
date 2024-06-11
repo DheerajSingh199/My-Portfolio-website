@@ -166,30 +166,59 @@ function sheyAnimation() {
 
 function videoMouse() {
   let videoCont = document.querySelector("#video-container");
+  let videoFile = document.querySelector("#video-container video");
+
   videoCont.addEventListener("mouseenter", () => {
     videoCont.addEventListener("mousemove", (dets) => {
       gsap.to("#crsr", {
-        display:"none"
+        display: "none",
       });
       gsap.to("#video-crsr", {
-        left: dets.x - 430,
-        top: dets.y - 200
+        left: dets.x - 400,
+        top: dets.y - 195,
       });
     });
   });
-  videoCont.addEventListener("mouseleave",function(){
+  videoCont.addEventListener("mouseleave", function () {
     gsap.to("#crsr", {
-       display:"initial"
+      display: "initial",
     });
     gsap.to("#video-crsr", {
       top: "6%",
       left: "80%",
-   });
-  })
+    });
+  });
+
+      let flag = 0;
+  videoCont.addEventListener("click", () => {
+    if (flag == 0) {
+      videoFile.play();
+
+      videoFile.style.opacity = 1;
+      document.querySelector(
+        "#video-crsr"
+      ).innerHTML = `<i class="ri-pause-line"></i>`;
+      gsap.to("#video-crsr", {
+        scale: 0.4,
+      });
+      flag = 1;
+    } else {
+      videoFile.pause();
+
+      videoFile.style.opacity = 0;
+      document.querySelector(
+        "#video-crsr"
+      ).innerHTML = `<i class="ri-play-mini-fill"></i>`;
+      gsap.to("#video-crsr", {
+        scale: 1,
+      });
+      flag = 0;
+    }
+  });
 }
 
-videoMouse();
-sheyAnimation();
 locoMotiveanimation();
 lodingAnimation();
 cursorAnimation();
+sheyAnimation()
+videoMouse();
