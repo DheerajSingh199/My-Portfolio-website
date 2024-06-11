@@ -52,10 +52,12 @@ function lodingAnimation() {
       let countNo = document.querySelector("#textHeading-part1 h5");
       let grow = 0;
       let b = setInterval(() => {
-        if (grow < 101) {
-          countNo.innerHTML = grow++;
-        } else {
+        if (grow == 101) {
           clearInterval(b);
+
+        } else {
+          countNo.innerHTML = grow++;
+
         }
       }, 20);
     },
