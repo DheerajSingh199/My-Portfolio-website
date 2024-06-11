@@ -798,11 +798,14 @@ body {
   .hero h1 {
     font-size: 13vw;
     line-height: 10vw;
+    margin-bottom: 1vh;
   }
 
   .hero h2 {
     font-size: 13vw;
     line-height: 11vw;
+    margin-bottom: 1vh;
+
   }
 
   #hero1::before {
@@ -1038,4 +1041,7 @@ body {
     min-height: 55vh;
 }
 
-}
+
+#loader {
+  padding: 36vh 15vw;
+}}
