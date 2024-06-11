@@ -131,7 +131,7 @@ function sheyAnimation() {
     style: 5,
     gooey: true,
     config: {
-      a: { value: 2, range: [0, 30] },
+      a: { value: 0.1, range: [0, 0] },
       b: { value: 0.75, range: [-1, 1] },
       zindex: { value: -9996999, range: [-9999999, 9999999] },
       aspect: { value: 0.6666412475692988 },
@@ -220,5 +220,5 @@ function videoMouse() {
 locoMotiveanimation();
 lodingAnimation();
 cursorAnimation();
-sheyAnimation()
+// sheyAnimation()
 videoMouse();
