@@ -1025,4 +1025,16 @@ body {
   #hero1::before {
    display: none;
 }
+#page5 {
+ 
+  overflow-x: hidden;
+}
+.elem {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+
+
 }
