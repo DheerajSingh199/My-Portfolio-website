@@ -1,10 +1,10 @@
 @font-face {
-  font-family:monospace ;
+  font-family: monospace;
   src: url(./font/Anonymous.ttf);
 }
 
 @font-face {
-  font-family:monospace ;
+  font-family: monospace;
   src: url(./font/Anonymous.ttf);
 }
 
@@ -12,7 +12,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: monospace;
 }
 
@@ -66,11 +66,11 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   -webkit-animation-name: anime;
-          animation-name: anime;
+  animation-name: anime;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes anime {
@@ -116,11 +116,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   gap: 2vw;
 }
 #textHeading-part1 {
@@ -128,8 +128,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 2vw;
 }
 
@@ -166,11 +166,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 #nav #nav-2 {
@@ -178,11 +178,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 2.5vw;
   font-size: 1.2vw;
   font-weight: 100;
@@ -201,8 +201,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -269,7 +269,7 @@ body {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   opacity: 0;
 }
 
@@ -286,11 +286,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #video-crsr i {
@@ -347,13 +347,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 #image-div-container > p {
   font-size: 2.8vw;
@@ -368,7 +368,7 @@ body {
   position: relative;
   overflow: hidden;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   margin: 1vw 1.5vw;
 }
 
@@ -378,7 +378,7 @@ body {
   position: relative;
   overflow: hidden;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   margin: 1vw 1.5vw;
 }
 
@@ -388,7 +388,7 @@ body {
   position: relative;
   overflow: hidden;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   margin: 1vw 1.5vw;
 }
 
@@ -396,9 +396,9 @@ body {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 .page3-circle1 {
@@ -410,11 +410,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 14vw;
   margin-left: 4vw;
   position: relative;
@@ -433,11 +433,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 2vw;
   position: relative;
 }
@@ -445,8 +445,8 @@ body {
 .page3-circle2 svg {
   height: 25%;
   -webkit-transform: rotate(315deg);
-      -ms-transform: rotate(315deg);
-          transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
 }
 .circle-in {
   height: 100%;
@@ -460,11 +460,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   scale: 0;
   -webkit-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
@@ -480,8 +480,8 @@ body {
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
   -webkit-transition-delay: 0.6s;
-       -o-transition-delay: 0.6s;
-          transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
 }
 .page3-circle1:hover .circle-in {
   scale: 1;
@@ -579,11 +579,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -ms-flex-align: end;
+  align-items: end;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 1.5vw 1vw;
 }
 
@@ -641,13 +641,13 @@ body {
   text-transform: uppercase;
   margin-right: 2vw;
   -webkit-animation-name: anime1;
-          animation-name: anime1;
+  animation-name: anime1;
   -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  animation-duration: 15s;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .elem2 {
@@ -665,35 +665,35 @@ body {
   text-transform: uppercase;
   margin-right: 2vw;
   -webkit-animation-name: anime1;
-          animation-name: anime1;
+  animation-name: anime1;
   -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  animation-duration: 15s;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   animation-direction: reverse;
 }
 
 @-webkit-keyframes anime1 {
   from {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   to {
     -webkit-transform: translateX(calc(-100% - 40px));
-            transform: translateX(calc(-100% - 40px));
+    transform: translateX(calc(-100% - 40px));
   }
 }
 
 @keyframes anime1 {
   from {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   to {
     -webkit-transform: translateX(calc(-100% - 40px));
-            transform: translateX(calc(-100% - 40px));
+    transform: translateX(calc(-100% - 40px));
   }
 }
 
@@ -744,13 +744,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 90%;
   margin-bottom: 4vw;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 .box h5 {
   font-size: 1.5vw;
@@ -776,7 +776,7 @@ body {
 
 @media (max-width: 600px) {
   #main {
-    background-color: #151515;
+    overflow: hidden;
   }
 
   #nav #nav-2 {
@@ -869,11 +869,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   #page4 {
@@ -910,8 +910,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     width: 100%;
   }
 
@@ -938,11 +938,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: end;
+    -ms-flex-align: end;
+    align-items: end;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     padding: 5.5vw 1vw;
   }
   .blue-div-elem h4 {
@@ -1023,18 +1023,19 @@ body {
   }
 
   #hero1::before {
-   display: none;
-}
-#page5 {
- 
-  overflow-x: hidden;
-}
-.elem {
-  overflow-x: hidden;
-}
-body {
-  overflow-x: hidden;
-}
+    display: none;
+  }
+  .elem h1 {
+    overflow-x: hidden;
+    margin-right: 0vw;
+  }
+  .elem2 h1 {
+    overflow-x: hidden;
+    margin-right: 0vw;
+  }
 
-
+  #footer {
+    min-height: 44vh;
+   
+}
 }
