@@ -222,5 +222,5 @@ function videoMouse() {
 locoMotiveanimation();
 lodingAnimation();
 cursorAnimation();
-sheyAnimation();
+// sheyAnimation();
 videoMouse();
