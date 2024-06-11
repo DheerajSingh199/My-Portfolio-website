@@ -51,11 +51,11 @@ function lodingAnimation() {
     onStart: function () {
       let countNo = document.querySelector("#textHeading-part1 h5");
       let grow = 0;
-      setInterval(() => {
-        if (grow < 100) {
+      let b = setInterval(() => {
+        if (grow < 101) {
           countNo.innerHTML = grow++;
         } else {
-          countNo.innerHTML = grow;
+          clearInterval(b);
         }
       }, 20);
     },
@@ -68,7 +68,7 @@ function lodingAnimation() {
 
   tl.to("#loader", {
     opacity: 0,
-     delay: 2,
+    delay: 2,
     duration: 0.4,
   });
 
@@ -189,7 +189,7 @@ function videoMouse() {
     });
   });
 
-      let flag = 0;
+  let flag = 0;
   videoCont.addEventListener("click", () => {
     if (flag == 0) {
       videoFile.play();
@@ -220,5 +220,5 @@ function videoMouse() {
 locoMotiveanimation();
 lodingAnimation();
 cursorAnimation();
-// sheyAnimation()
+sheyAnimation();
 videoMouse();
