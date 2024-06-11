@@ -733,9 +733,9 @@ body {
 }
 #underline2 {
   background-color: #fff;
-  height: 0.2vw;
-  margin: 4vh 0;
-  width: 90%;
+  height: 0.1vw;
+  margin: 3vh 0;
+  width: 80%;
   margin-left: 1%;
 }
 
@@ -746,7 +746,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  width: 90%;
+  width: 81%;
   margin-bottom: 4vw;
   -webkit-box-align: start;
   -ms-flex-align: start;
