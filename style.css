@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: monospace;
   src: url(./font/Anonymous.ttf);
@@ -774,6 +776,20 @@ body {
   pointer-events: none;
 }
 
+#linkTag {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2vw;
+}
+
+#linkTag:hover {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2vw;
+}
+
 @media (max-width: 600px) {
   #main {
     overflow: hidden;
@@ -805,7 +821,6 @@ body {
     font-size: 13vw;
     line-height: 11vw;
     margin-bottom: 1vh;
-
   }
 
   #hero1::before {
@@ -825,7 +840,8 @@ body {
   }
 
   #page3 {
-    min-height: 50vh;
+    display: none;
+
   }
 
   #page3 h1::before {
@@ -861,12 +877,14 @@ body {
     width: 100%;
   }
 
+  
+
   .page3-circle2 {
     display: none;
-  }
+  } 
   .page3-circle1 {
     display: none;
-  }
+  } 
   #image-div-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1039,9 +1057,9 @@ body {
 
   #footer {
     min-height: 55vh;
+  }
+
+  #loader {
+    padding: 36vh 15vw;
+  }
 }
-
-
-#loader {
-  padding: 36vh 15vw;
-}}
