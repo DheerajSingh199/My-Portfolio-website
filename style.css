@@ -791,6 +791,27 @@ body {
 }
 
 @media (max-width: 600px) {
+  #crsr {
+   display: none;
+  }
+
+  .textHeading h1 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  .textHeading h2 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-animation-name: anime;
+    animation-name: anime;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
   #main {
     overflow: hidden;
   }
