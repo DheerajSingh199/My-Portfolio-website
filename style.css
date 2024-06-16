@@ -780,14 +780,18 @@ body {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size: 1vw;
+
 }
 
-#linkTag:hover {
-  color: #fff;
+#linkTag span {
+  display: inline-block;
+  color: #ff2727;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size: 1vw;
+margin-bottom: 2vw;
+
 }
 
 @media (max-width: 600px) {
